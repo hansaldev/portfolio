@@ -1,23 +1,44 @@
 /* GLOBAL */
-:root{
+:root {
     scroll-behavior: smooth;
-    --bg-primary:#000;
-    --bg-secondary:#000;
-    --bg-warning:#000;
-    --bg-danger:#000;
-    --bg-transparent:#000;
-    --accent-primary:#000;
-    --accent-secondary:#000;
-    --accent-info:#000;
-    --text-primary:#fff;
-    --text-secondary:#fff;
-    --text-dark:#fff;
+    --bg-primary: #007ab3;
+    --bg-secondary: #023552;
+    --bg-warning: #aa9f09;
+    --bg-danger: #bb0f0f;
+    --bg-transparent: #00000000;
+    --accent-primary: #f80606;
+    --accent-secondary: #ffc400;
+    --accent-info: #05ff12cb;
+    --text-primary: #fff;
+    --text-secondary: #f5f5f5;
+    --text-dark: #121312;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+}
+
+h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* TODO:: Remove this after developing */
+section {
+    min-height: 50vh;
 }
 
 /* HEADER SECTION */
 header {
     height: 60px;
     overflow: hidden;
+    background: var(--bg-secondary);
+    box-shadow: 1px 2px 2px #cccccc69;
 }
 
 header nav {
@@ -26,4 +47,41 @@ header nav {
     justify-content: space-between;
     height: 100%;
     width: 100%;
+}
+
+header nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+}
+
+header nav .logo img {
+    height: 100%;
+    width: 100%;
+}
+
+ul.nav-links-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    gap: 14px;
+    list-style: none;
+}
+
+a.nav-link {
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+img.nav-link-icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
 }
