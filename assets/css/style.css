@@ -1,0 +1,29 @@
+/* GLOBAL */
+:root{
+    scroll-behavior: smooth;
+    --bg-primary:#000;
+    --bg-secondary:#000;
+    --bg-warning:#000;
+    --bg-danger:#000;
+    --bg-transparent:#000;
+    --accent-primary:#000;
+    --accent-secondary:#000;
+    --accent-info:#000;
+    --text-primary:#fff;
+    --text-secondary:#fff;
+    --text-dark:#fff;
+}
+
+/* HEADER SECTION */
+header {
+    height: 60px;
+    overflow: hidden;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
