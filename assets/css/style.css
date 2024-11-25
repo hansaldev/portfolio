@@ -1,17 +1,17 @@
 /* GLOBAL */
 :root {
     scroll-behavior: smooth;
-    --bg-primary: #007ab3;
-    --bg-secondary: #023552;
+    --bg-primary: #ffffff;
+    --bg-secondary: #fdfdfd;
     --bg-warning: #aa9f09;
     --bg-danger: #bb0f0f;
     --bg-transparent: #00000000;
     --accent-primary: #f80606;
     --accent-secondary: #ffc400;
     --accent-info: #05ff12cb;
-    --text-primary: #fff;
-    --text-secondary: #f5f5f5;
-    --text-dark: #121312;
+    --text-primary: #1a1919;
+    --text-secondary: #302f2f;
+    --text-dark: #000000;
 }
 
 body {
