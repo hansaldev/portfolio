@@ -1,0 +1,160 @@
+:root {
+    scroll-behavior: smooth;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f4f2f9;
+    --text-brimary: #010101;
+    --text-secondary: #00000094;
+    --card-bg:#fffbfb;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-brimary);
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.15rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+h6 {
+    font-size: 1.01rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-brimary);
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding: 0 25px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 35px;
+    outline: none;
+    border: none;
+    font-size: 1.01rem;
+    font-weight: 600;
+    font-family: sans-serf;
+}
+
+button.main-btn {
+    background: #1e02f0;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.15s;
+}
+
+button.main-btn:hover {
+    background: #1a02cf;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+button.main-btn:active {
+    background: #130297;
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.4);
+}
+
+.container {
+    width: 100%;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.card {
+    display: inline-block;
+    min-height: 250px;
+    width: 100%;
+    background: var(--card-bg);
+    box-shadow: 5px 5px 15px rgb(125 125 115 / 29%);
+    border-radius: 37px;
+    border: 1px solid #cccccc66;
+}
+
+.card-body {
+    padding: 0 25px;
+}
+
+/* Header */
+header {
+    background-color: var(--bg-secondary);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.01);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+nav a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+main {
+    min-height: 100vh;
+}
+
+/* FOOTER */
+footer {
+    background: var(--bg-secondary);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.01);
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 5px 0;
+}
